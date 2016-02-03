@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+            function hello_language() {
+                if (languageName.value == "") {
+                    alert("Hello, Codenewbies");
+                } else {
+                    alert("Hello, " + languageName.value);
+                }
+            }
+        </script>
+    </head>
+    
+    <body>
+        <h2>Enter language here:</h2>
+            
+        <input type="text" name="languageName" id="languageName">
+        <input type="button" onclick="hello_language('languageName');" value="Submit">
+    </body>
+</html>
